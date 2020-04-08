@@ -1,0 +1,28 @@
+  Revised: Friday, March 20, 2020					
+          Revision: 					
+					
+					
+					
+					
+					
+					
+					
+Bill Of Materials          March 20,2020      19:19:43	Page1				
+					
+Item	Quantity	Reference	Part	PCB Footprint	Device
+______________________________________________					
+					
+1	3	BR1	CIRCUIT BREAKER	cap0402	
+		BR2	CIRCUIT BREAKER	cap0402	
+		BR3	CIRCUIT BREAKER	cap0402	
+2	2	C1	100n	smc0603	06035C104K4T2A
+		C2	100n	smc0603	06035C104K4T2A
+3	1	C3	10u	cap0805	GRM188R6YA106MA73D
+4	1	J1	S20B-PADSS-1(LF)(SN)	JST_PADSS_90deg_10x2	S20B-PADSS-1(LF)(SN)
+5	1	L1	BLM18PG300SN1D	res0603	BLM18PG300SN1D
+6	3	R1	51k	res0603	CRCW060351K0FKEA
+		R2	51k	res0603	CRCW060351K0FKEA
+		R3	51k	res0603	CRCW060351K0FKEA
+7	1	U1	AM4096	SSOP28-LD	AM4096
+8	1	J1-J1	PADP-20V-1-S	JST_	PADP-20V-1-S
+	20	J1pin	SPH-001T-P0.5L	contacts	SPH-001T-P0.5L

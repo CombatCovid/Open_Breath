@@ -1,0 +1,3 @@
+BOM analysis done with Octopart:
+
+https://octopart.com/bom-tool/0PuyL0Qp
