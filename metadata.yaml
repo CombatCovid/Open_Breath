@@ -29,9 +29,9 @@ languages:
 
   ES:
     description: Un ventilador de bajo costo, basado en la sabiduría colectiva de muchos médicos.
-    keywords: [ paciente,recuperación,Cuidado crítico,
-                cuidados intensivos,icu,equipo,sala de emergencias,
-                ayudante,tratamiento,hospital,sala de operaciones ]
+    keywords: [ covid-19, equipo médico, paciente, recuperación, cuidados críticos, cuidados intensivos, icu,
+                                 sala de emergencia, emt, tratamiento, hospital, quirófano,
+                                 chapa, corte por láser ]
     longDescription: >
       Un ventilador es una máquina que proporciona ventilación mecánica.
       moviendo aire respirable dentro y fuera de los pulmones,
@@ -39,8 +39,8 @@ languages:
       incapaz de respirar, o respirando insuficientemente.
 
   KR:
-    keywords: [ 환자,회복,중요한 치료,집중 치료,아이쿠,장비,
-                응급실,돕는 사람,치료,병원,수술실 ]
+    keywords: [ covid-19, 의료 기기, 환자, 회복, 중요 치료, 집중 치료, icu,
+                응급실, 구급차, 치료, 병원, 수술실, 판금, 레이저 컷 ]
     description: 많은 임상의의 집단적 지혜에 기반한 저렴한 인공 호흡기
     longDescription: >
       인공 호흡기는 기계적 환기를 제공하는 기계입니다
