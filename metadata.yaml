@@ -1,0 +1,160 @@
+---
+# basis initial format for remote pickup of metadata by both client app and
+# the essential repo updates system, about to appear in first capability.
+# *todo* ground rules for yaml lines of this file, to be written
+
+# note carefully that this is the title that will show
+# in the Finder-Viewer app, and so _must_ be short enough to fit
+# the longTitle below lets such be in meta; no place to use it at present
+shortTitle: MIT Emergency Ventilator (E-Vent)
+# these names are fixed labels as must be used on repo by GitHub API, for our access
+name: mit-emergency-ventilator
+nameWithOwner: CombatCovid/mit-emergency-ventilator
+
+# markdown titles too long for Finder to show especially, we hold for any uses
+# the same for long descriptions in the languages
+# when text may fit, then they are the same in topic and longTopic yaml itemslongTitle: MIT Emergency Ventilator (E-Vent) Project
+
+languages:
+  EN:
+    description: A low-cost ventilator, based on the collective wisdom of many clinicians
+    keywords: [ covid-19, medical equipment, patient, recovery, critical care,intensive care, icu,
+                emergency room, emt, treatment, hospital, operating room,
+                sheet metal, laser cut ]
+    longDescription: >
+      A ventilator is a machine that provides mechanical ventilation
+      by moving breathable air into and out of the lungs, to deliver breaths
+      to a patient who is physically unable to breathe,
+      or breathing insufficiently.
+
+  ES:
+    description: Un ventilador de bajo costo, basado en la sabiduría colectiva de muchos médicos.
+    keywords: [ paciente,recuperación,Cuidado crítico,
+                cuidados intensivos,icu,equipo,sala de emergencias,
+                ayudante,tratamiento,hospital,sala de operaciones ]
+    longDescription: >
+      Un ventilador es una máquina que proporciona ventilación mecánica.
+      moviendo aire respirable dentro y fuera de los pulmones,
+      para entregar respiraciones a un paciente que es físicamente
+      incapaz de respirar, o respirando insuficientemente.
+
+  KR:
+    keywords: [ 환자,회복,중요한 치료,집중 치료,아이쿠,장비,
+                응급실,돕는 사람,치료,병원,수술실 ]
+    description: 많은 임상의의 집단적 지혜에 기반한 저렴한 인공 호흡기
+    longDescription: >
+      인공 호흡기는 기계적 환기를 제공하는 기계입니다
+      통기성 공기를 폐 안팎으로 이동시켜 호흡
+      신체적으로 숨을 쉴 수없는 환자에게
+      또는 호흡이 불충분합니다.
+
+project-link: https://www.openbreath.it/en/
+intended-use: >-
+  tbd
+made: true
+made-independently: false
+license:
+  hardware: CERN-OHL-S License
+okh-manifest-version: 1.0.0
+date-updated: 2020-04-06
+manifest-author:
+  name:
+  - David van Rijn
+  - Jose Francisco Martinez
+  affiliation: TU Delft
+contributors:
+    -Gabriel D’Anselmo
+    -Simone Iannucci
+    -Patrizio Cavarretta
+    -Massimiliano D’Amario
+    -Francesco Solinas
+    -Vittoria Garosci
+    -Francesco D’Anselmo
+    -Roberto Caminati
+    -Carlo Menegazzo
+    -Vittoria Garosci
+    -Pietro Arina
+    -Francesca Gaschino
+    -Stefano Bedino
+    -Fabrizio David
+sub-parts:
+  - A00_OB_200404
+  - P0008_OB_200401
+  - A06_OB_200401
+  - HELAVIA DG M75
+  - P0009_OB_200401
+  - P0010_OB_200401
+  - Washer_M6
+  - Screw_M6_14
+  - Nut_M6
+  - Omron_LimitSwitch_20834
+  - Washer_M3
+  - Screw_M3_20
+  - Nut_M3
+  - A01_OB_200401
+  - A03_OB_200401
+  - Igus_MCM_06_015_1
+  - P0001_OB_200401
+  - WE_M3_20_971200354
+  - Washer_M3
+  - Nut_M3
+  - WE_Standoffs_M2_15_971150244
+  - Washer_M2
+  - Nut_M2
+  - P0007_OB_200401
+  - RLS - BA060AB01AA00
+  - RLS - BR10xxx14xxxxD00
+  - Screw_M2_5_Phillips
+  - RLS - RMA06A3A00
+  - RLS - RMB29AC01SS
+  - Screw_M3_Phillips/Countersunk
+  - A05_OB_200402
+  - P0003_OB_200401
+  - A07_LimitSwitch
+  - Washer_M2
+  - Nut_M2
+  - Screw_M2_12
+  - Screw_M3_25
+  - A02_OB_200404
+  - P0002_OB_200404
+  - P0005_OB_200403
+  - Igus_NEMA_23_MOT-AN-S-060-020-056-L-A-AAAA
+  - ShaftCoupler_6.35_6.00
+  - Set_Screw_M4
+  - Igus_DST-LS-10x12-R-200-ES_Parametric
+  - AutomotionComponents - L1390.FK06
+  - P0006_OB_200403
+  - Washer_M3
+  - Screw_M3_14
+  - Nut_M3
+  - Washer_M4
+  - Nut_M4
+  - Screw_M4_60
+  - Spacer_M4_45
+  - RLS - RMH06A3A02
+  - Standoffs_M3_8
+  - WE_Spacer_2.5_3.3_6_9774025960_rev1
+  - Washer_M3_Plastic
+  - Screw_M3_5_Phillips
+  - Screw_M3_10
+  - A04_OB_200401
+  - P0004_OB_200401
+  - Igus_DST-JFRM-2525DS10x12
+  - Washer_M5
+  - Screw_M5_20
+  - Nut_M5
+  - Seeger_6
+  - Igus_MSM-0608-10
+  - Washer_M6
+  - Nut_M5
+  - Screw_M5_Shoulder_6_6
+  - Ambu_Spur_II_200313
+  - Washer_M6
+  - Nut_M6
+  - Screw_M6_14
+
+# ---
+# Note that it's critical that a metadata.yaml file _does not ever have_ this trailing ---
+# The reason: this trailing separator says there's another block to come.
+# For a Markdown fine, that's true -- the main Markdown text
+# But in a pure Yaml file, there isn't more to come - and it will break because empty!
