@@ -2,6 +2,7 @@
 # Comments are expressed with a # preceding the line of text
 # Be as explicit and contextual as possible
 title: Open Breath scalable low cost lung ventilator
+finderPriority: 800
 
 # Name of the actual github repository
 name: Open_Breath
