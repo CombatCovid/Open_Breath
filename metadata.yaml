@@ -19,7 +19,7 @@ languages:
     # Example of description: A low cost ventilator based on off the shelves components available in the Netherlands
     #  Open Breath lung ventilator presents an innovative design, conceived to be quickly realized with off-the-shelf low-cost hardware components.
     # Replace the keywords here to whatever is relevant to your context
-    # If you are using a mask then some will probably change
+    # If you are using a mask then some will probably change - test text
     keywords: [ covid-19, medical equipment, patient, recovery, critical care,intensive care, icu, emergency room, emt, treatment, hospital, operating room, sheet metal, laser cut ]
 
 # end of app metadata
